@@ -1,39 +1,40 @@
-/* Reset some default styles */
-body, ul {
-    margin: 0;
-    padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  }
-  
-  /* Sidebar styles */
-  .sidebar {
-    background-color: #f1f1f1;
-    width: 200px;
-    height: 100vh;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
+body{
+    font-family: Arial;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
   }
   
-  .sidebar ul li {
-    margin-bottom: 10px;
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
   }
   
-  .sidebar ul li a {
-    text-decoration: none;
-    color: #333;
+  h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    color: lightblue;
+    background: blue;
   }
   
-  .sidebar ul li a:hover {
-    color: #555;
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
   }
   
-  /* Content styles */
-  .content {
-    margin-left: 200px;
-    padding: 20px;
+  p {
+    margin-bottom: 20px;
+    color: darkblue;
+    background: lightblue
   }
   
+  ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
   
